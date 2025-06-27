@@ -1,12 +1,8 @@
-import "./App.css";
-import Navbar from "../@/components/ui/Navbar";
+import React from "react";
+import Home from "./Home";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-    </>
-  );
+  return <Home />;
 }
 
 export default App;

@@ -1,8 +1,4 @@
-import {
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-} from "@radix-ui/react-popover";
+import { Popover, PopoverTrigger, PopoverContent } from "./ui/popover";
 import React from "react";
 
 const Navbar = () => {
@@ -32,9 +28,6 @@ const Navbar = () => {
                 <AvatarFallback>CN</AvatarFallback>
               </Avatar>
             </PopoverTrigger>
-            <div>
-              <h1>Hello</h1>
-            </div>
           </Popover>
         </div>
       </div>
