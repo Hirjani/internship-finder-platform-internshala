@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff;
+    margin: 0;
+    padding: 0;
+}
+
+    header {
+        background-color: #fff;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .bg-internshala-blue {
+      background: linear-gradient(135deg, #004a99 0%, #003d7a 100%);
+    }
+    .btn-google {
+      background: white;
+      border: 1px solid #ddd;
+      color: #646464;
+      font-weight: 500;
+    }
+    .btn-google:hover {
+      background: #eeeeee;
+    }
+    .btn-email {
+      background: #2f5acb;
+      color: white;
+      font-weight: 600;
+    }
+    .btn-email:hover {
+      background: #2446a3;
+    }
+    .link-terms {
+      font-size: 0.875rem;
+      color: #dbe4ff;
+    }
+    .link-terms a {
+      color: white;
+      text-decoration: underline;
+    }
+    /* Custom Google icon next to button text */
+    .btn-google-icon {
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+h1 {
+    color: #007bff;
+}
+
+nav button {
+    margin-left: 10px;
+}
+
+.internships {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+}
+
+.filter-buttons button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.filter-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* .internship-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    display: inline-block;
+}
+
+.card h3 {
+    margin: 0 0 10px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+} */
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
